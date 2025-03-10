@@ -121,7 +121,7 @@ class Pipe():
         return self.startNode==node or self.endNode==node
 
     def printPipeFlowRate(self):
-        print('The flow in segment {} is {:0.2f} L/s'.format(self.Name(),self.Q))
+        print('The flow in segment {} is {:0.2f} m^3/s'.format(self.Name(),self.Q))
 
     def getFlowIntoNode(self, n):
         '''
